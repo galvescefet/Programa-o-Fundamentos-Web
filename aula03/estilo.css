@@ -1,0 +1,54 @@
+body {
+    margin:0;
+}
+
+#cabecalho  {
+    text-align: center;
+}
+#cabecalho div {
+    border-top:1px solid black;
+}
+#menu {
+    margin:10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style: none;
+    padding-left: 0;
+    width:600px;
+}
+
+#menu li {
+    border-right: 1px solid black;
+    padding-right: 40px;
+}
+
+#menu li:last-child {
+    border-right:none;
+    padding-right: 0px;
+}
+
+/**
+* area de conteudo
+**/
+#conteudo {
+    width:730px;
+    margin:auto;
+    display: flex;
+}
+.col-1 h3 {
+    background-color:black;
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding:10px;
+    font-weight: normal;
+}
+.proj-detail {
+    width:240px;
+    height:200px;
+}
+
+.conteudo {
+    width:244px;
+}
