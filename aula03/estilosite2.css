@@ -8,9 +8,10 @@ h1 {
     color: white;
 }
 #james{
-    color:skyblue;
+    color: deepskyblue;
 }
 #menu{
+    
     color: aliceblue;
     margin:10px;
     display: flex;
