@@ -1,17 +1,35 @@
 body{
+    border: 0px;
+    align-items: center;
     background-color: rgb(0, 36, 52);
+    padding:0 20%;
 }
-#cabeçalho{
+#pgini{
+    color: deepskyblue;
+}
+#cabecalho{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-end;
     text-align: left;
 }
 h1 {
     color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 #james{
     color: deepskyblue;
 }
+
 #menu{
-    
+    padding-left: 10px;
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    display: flex;
     color: aliceblue;
     margin:10px;
     display: flex;
@@ -21,6 +39,124 @@ h1 {
     padding-left: 0;
     width:600px;
 }
+
+#quadrado{
+    
+    background-color: white;
+}
+
+
+#fotosurfe{
+    color: white;
+    background-position: 0px -100px;
+    background-image: url('img/surf.png');
+    height: 400px;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+#fotosurfe h1{
+    padding-left: 40px;
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+#fotosurfe h3{
+    font-size: 20px;
+    padding-left: 40px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #conteudo{
-    color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+#blocos{
+    font-size: 1.05em;
+    height: 350px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: white;
+    margin: 10px;
+    background-color: #0076aa;
+}
+
+#blocos h4{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#final{
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 36, 52);
+}
+#pgbx{
+    margin-left: 20px;
+    color:rgb(4, 17, 47);
+}
+#menu1{
+    margin-top: 0px;
+    background-color: lightblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    display: flex;
+
+    flex-direction: row;
+    justify-content:space-around;
+    list-style: none;
+    padding-left: 0;
+    width:100%;
+}
+#blocosf{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.00em;
+    height: 300px;
+    width:650px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(10, 40, 98, 0.872);
+    margin: 10px;
+}
+#blocosf h2{
+    color: rgb(45, 57, 83);
+}
+#blocosf h4{
+    color: rgb(23, 51, 116);
+}
+#saiba{
+    color: rgb(35, 79, 136);
+}
+
+#depo{
+    font-style: italic;
+    font-size: small;
+    padding: 30px;
+    background-color: #daedff;
+}
+#textoimagem{
+    width: 500px;
+}
+#imagemtexto{
+    width: 400px;
+}
+
+button{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    background-image: linear-gradient(#5cd6ff, #319cca);
+    padding: 15px 32px;
+    border: none;
+}
+button:active{
+    background-color: #2f5584;
+    box-shadow: 0 5px rgb(255, 255, 255);
+    transform: translateY(4px);
 }
