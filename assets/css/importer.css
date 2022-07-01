@@ -1,0 +1,21 @@
+/* NORMALIZER */
+@import url("./normalizer.css");
+
+/* ESCOPES */
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+/* RESOURCES */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
+
+/* COLORS */
+@import url("./colors/default.css");
+
+/* COMPONENTS */
+/* GLASSMORPHISM */
+@import url("./components/glassmorphism.css");
+
+/* POLAROID */
+@import url("./components/polaroid.css");

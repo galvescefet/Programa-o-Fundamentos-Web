@@ -1,0 +1,12 @@
+header {
+  flex-grow: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 4em;
+}
+
+header nav a {
+  padding: 0 8px;
+}

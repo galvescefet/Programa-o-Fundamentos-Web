@@ -1,0 +1,22 @@
+.polaroid {
+  margin: 1em 5%;
+  border: 12px solid white;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.polaroid figure {
+  text-align: center;
+  background-color: #fff;
+}
+
+.polaroid img {
+  width: 100%;
+}
+
+.polaroid figcaption {
+  padding: 1em;
+  font-size: 0.75em;
+  color: black;
+  background-color: #fff;
+}
